@@ -16,7 +16,7 @@ create TS based algorithm for best model search with multiprocessing implementat
 
 2.) Initialize trial_table to collect the measure of interest across all runs
 
-3.) Set max_count -- how many times each candidate model should be tested -- we do not want to run best model definitively but rather test "thoroughly" couple best models
+3.) Set max_count -- how many times each candidate model should be tested -- we do not want to run best model indefinitely but rather test "thoroughly" couple best models
 
 4.) Set top_count -- how many candidate models should be fully tested (with max_count runs)
 
