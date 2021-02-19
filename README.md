@@ -28,7 +28,7 @@ create TS based algorithm for best model search with multiprocessing implementat
 
 - The expected values of the target variable are as seen in the top table
 
-- The expected models to undergo the complete testing (with Max_Count Runs!)
+- The Bottom Table shows (in Green) the expected models to undergo the complete testing (with Max_Count Runs!)
 
 - The expected BEST MOODEL: Model(128,15)
 
