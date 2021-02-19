@@ -15,12 +15,17 @@ Created on Sat Feb 19 20:35:47 2020
 
 @usage:
 
-1.) Initalize trial_control table, one row per condition, count, each distribution paramter (example: norm(mu,sd))
-2.) Initalize tiral_table to collect the measure of interst accross all runs
-3.) Set max_count -- how many times each candidate model should be tested -- we do nto want to run best model idefinatively but rather test "thoroughly" couple best models
+1.) Initialize trial_control table, one row per condition, count, each distribution parameter (example: norm(mu,sd))
+
+2.) Initialize trial_table to collect the measure of interest across all runs
+
+3.) Set max_count -- how many times each candidate model should be tested -- we do not want to run best model definitively but rather test "thoroughly" couple best models
+
 4.) Set top_count -- how many candidate models should be fully tested (with max_count runs)
+
 5.) List Conditions (the model parameters) (COND1, COND2)
-6.) Adjust target variable to your use case -- this is the traget objective.
+
+6.) Adjust target variable to your use case -- this is the target objective.
 
 """
 
