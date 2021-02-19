@@ -32,7 +32,7 @@ create TS based algorithm for best model search with multiprocessing implementat
 
 - The expected BEST MOODEL: Model(128,15)
 
-![github-small](https://github.com/sebtac/MLxE/blob/main/Sewak%20-%20Models%20Comparison%20-%208-Games%20MA.jpg)
+![github-small](https://github.com/sebtac/STTS/blob/main/STTS%20Example%20Settings.jpg)
 
 ### Results:
 
