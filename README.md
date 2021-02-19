@@ -1,4 +1,4 @@
-# STTS
+# STTS Model Search
 
 # Thompson Sampling Based Best Model Search with Multiprocessing Implementation
 
