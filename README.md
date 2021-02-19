@@ -12,21 +12,21 @@ create TS based algorithm for best model search with multiprocessing implementat
 
 # usage:
 
-1.) Initalize trial_control table, one row per condition, count, each distribution paramter (example: norm(mu,sd))
+1.) Initialize trial_control table, one row per condition, count, each distribution parameter (example: norm(mu,sd))
 
-2.) Initalize tiral_table to collect the measure of interst accross all runs
+2.) Initialize trial_table to collect the measure of interest across all runs
 
-3.) Set max_count -- how many times each candidate model should be tested -- we do nto want to run best model idefinatively but rather test "thoroughly" couple best models
+3.) Set max_count -- how many times each candidate model should be tested -- we do not want to run best model definitively but rather test "thoroughly" couple best models
 
 4.) Set top_count -- how many candidate models should be fully tested (with max_count runs)
 
 5.) List Conditions (the model parameters) (COND1, COND2)
 
-6.) Adjust target variable to your use case -- this is the traget objective.
+6.) Adjust target variable to your use case -- this is the target objective.
 
 # EXAMPLE REVIEW
 
-- The expected values of the target varible are as seen in the top table
+- The expected values of the target variable are as seen in the top table
 
 - The expected models to undergo the complete testing (with Max_Count Runs!)
 
@@ -36,9 +36,9 @@ create TS based algorithm for best model search with multiprocessing implementat
 
 ### Results:
 
-- Most of the models expected to be fully tested have been tested; when max_count is increased to 30 all exepected conditions are fully tested
-- The best performing model is the Model(128,15) but this depends on the variablilty of the resutls between models !!!
-  - if you change the line target = (np.random.random())*(cond1_select * cond2_select) to target = (np.random.random())*(cond1_select + cond2_select) the TRUE-Best model will not be chosen every time but it will be a good one with cond1 of 64 or 128!
+- Most of the models expected to be fully tested have been tested; when max_count is increased to 30 all expected conditions are fully tested
+- The best performing model is the Model(128,15) but this depends on the variability of the results between models !!!
+  - if you change the line target = (np.random.random())*(cond1_select * cond2_select) to target = (np.random.random())*(cond1_select + cond2_select) the TRUE-Best model will not be chosen every time, but it will be a good one with cond1 of 64 or 128!
 
 
 COND1
