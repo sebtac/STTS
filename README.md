@@ -32,9 +32,12 @@ create TS based algorithm for best model search with multiprocessing implementat
 
 - The expected BEST MOODEL: Model(128,15)
 
+![github-small](https://github.com/sebtac/MLxE/blob/main/Sewak%20-%20Models%20Comparison%20-%208-Games%20MA.jpg)
+
 ### Results:
 
 - Most of the models expected to be fully tested have been tested; when max_count is increased to 30 all exepected conditions are fully tested
 - The best performing model is the Model(128,15) but this depends on the variablilty of the resutls between models !!!
   - if you change the line target = (np.random.random())*(cond1_select * cond2_select) to target = (np.random.random())*(cond1_select + cond2_select) the TRUE-Best model will not be chosen every time but it will be a good one with cond1 of 64 or 128!
 
+![github-small](https://github.com/sebtac/MLxE/blob/main/Sewak%20-%20Models%20Comparison%20-%208-Games%20MA.jpg)
